@@ -82,5 +82,5 @@ npm install
 Run the program:
 
 ```bash
-npm run dev
+npm run start
 ```
