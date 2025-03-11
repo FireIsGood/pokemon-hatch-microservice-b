@@ -50,9 +50,7 @@ function rollWeightedData(data: WeightedData[]): WeightedData {
 
 // Filters items based on their chance to occur
 function rollChanceData(data: ChanceData[]): ChanceData[] {
-  const filteredData = data.filter(
-    (item) => Math.floor(Math.random() * item.chance) === 0,
-  );
+  const filteredData = data.filter((item) => Math.floor(Math.random() * item.chance) === 0);
   return filteredData;
 }
 
